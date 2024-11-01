@@ -15,16 +15,16 @@ Environment Setup: Installation of the OpenPose model (an open-source library de
 ### Second Part
 Human Keypoint Detection: Using the camera feed, the OpenPose model is called to detect human keypoints, connecting key points to form an entire skeletal structure.
 
-![Keypoint Detection](images/fig1.png)
+![Keypoint Detection](image/fig1.png)
 
 ### Third Part
 Counting Functionality: The camera continuously detects frames in real-time to calculate changes in human keypoints, displaying the exercise name, count, and status in the workout window to track repetitions. It provides real-time angle detection for push-ups and displays fluctuation graphs of coordinate changes for squats and jump rope. There is voice guidance throughout the exercise, assisting users as they work out.
 
-![Display of Counting Process](images/fig2.jpg)
+![Display of Counting Process](image/fig2.jpg)
 ### Fourth Part
 Program Development: Using PyQt5 to design the user interface, which includes background images, animations, and instructional text for an aesthetically pleasing display. Users can select the exercise they wish to perform. The interface offers timed and quantified training for 12 types of exercises (jump rope, squats, sit-ups, push-ups, pull-ups, crunches, etc.).
 
-![Program interface](images/fig3.jpg)
+![Program interface](image/fig3.jpg)
 
 ## Project Highlights
 
