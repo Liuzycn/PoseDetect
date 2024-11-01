@@ -1,0 +1,8 @@
+PyQt5
+numpy
+pyttsx3
+cv2
+mediapipe
+tqdm
+matplotlib
+scipy
